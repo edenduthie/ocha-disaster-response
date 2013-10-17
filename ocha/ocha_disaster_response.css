@@ -7,11 +7,30 @@ html, body {
     height: 100%;
 }
 
-.navbar-default {
-	background-color: transparent;
-	margin-top: 20px;
+body {
+	padding-top: 20px;
 }
 
-.content {
-	margin-top: 50px;
+.navbar-default {
+	background-color: transparent;
+}
+
+.container.no-pad {
+	padding: 0px;
+}
+
+.logo {
+	margin: 6px;
+	padding: 0;
+	background-color: #717075;
+}
+
+.logo .col-md-8,
+.logo .col-md-4 {
+	padding: 0;
+}
+
+.navbar {
+	border: 0;
+}
 }
