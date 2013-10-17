@@ -1,0 +1,17 @@
+.container {
+	background-color: #ffffff;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+.navbar-default {
+	background-color: transparent;
+	margin-top: 20px;
+}
+
+.content {
+	margin-top: 50px;
+}
