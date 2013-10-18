@@ -4,3 +4,46 @@
     padding: 15px;
     text-align: center;
 }
+
+.navbar-nav > li {
+    background-color: @brand-primary;
+    margin-right: 5px;
+}
+
+.navbar-nav > li > a {
+    font-variant: small-caps;
+    font-size: @font-size-large;
+}
+
+.navbar-nav > li > a:hover {
+   text-decoration: underline;
+}
+
+@media screen and ( min-width: @screen-sm ) {
+  .navbar-collapse {
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+
+body {
+    font-size: @font-size-medium;
+}
+@media screen and ( max-width: @screen-sm - 1 ) {
+  .navbar-collapse {
+      padding-left: floor(@grid-gutter-width / 2);
+      padding-right: floor(@grid-gutter-width / 2);
+  }
+}
+
+h1 {
+	color: @text-primary;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h2 {
+	color: @text-primary;
+    text-transform: uppercase;
+    font-weight: 700;
+}
