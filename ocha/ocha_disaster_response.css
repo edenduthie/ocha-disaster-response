@@ -40,5 +40,9 @@ html, body {
 }
 
 .grey-box {
-    margin: 10px 0 20px 0;
+    margin: 20px 0 20px 0;
+}
+
+.navbar-nav > li.active a {
+	text-decoration: underline;
 }
