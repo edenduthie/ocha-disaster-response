@@ -1,0 +1,3 @@
+$('.pop').popover({
+	placement: 'bottom'
+});

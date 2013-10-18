@@ -46,3 +46,7 @@ html, body {
 .navbar-nav > li.active a {
 	text-decoration: underline;
 }
+
+ .pop {
+     cursor: pointer;
+ }

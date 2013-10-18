@@ -5939,6 +5939,9 @@ td.success,
 tr.success {
   color: #036cb6;
 }
+.org {
+  color: #036cb6;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
