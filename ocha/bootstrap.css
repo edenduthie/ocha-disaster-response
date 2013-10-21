@@ -445,7 +445,7 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 1.13em;
 }
 h4,
 .h4 {
@@ -5924,6 +5924,12 @@ h2 {
   color: #036cb6;
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 20px;
+}
+h3 {
+  color: #333333;
+  margin: 0 0 10px 0;
+  padding: 0;
 }
 .figure {
   border-top: 4px solid #0c6cb6;
