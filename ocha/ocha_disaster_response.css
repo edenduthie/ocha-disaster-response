@@ -50,3 +50,13 @@ html, body {
  .pop {
      cursor: pointer;
  }
+ 
+ ol[type="i"] {
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+ 
+ a.accordion-toggle i.icon-collapse {
+     float: right;
+     text-decoration: none;
+ }
