@@ -65,3 +65,7 @@ html, body {
      text-decoration: underline;
      font-weight: bold;
  }
+ 
+ .figure img {
+     margin: 5px 0;
+ }
