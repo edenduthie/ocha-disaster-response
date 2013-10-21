@@ -40,5 +40,23 @@ html, body {
 }
 
 .grey-box {
-    margin: 10px 0 20px 0;
+    margin: 20px 0 20px 0;
 }
+
+.navbar-nav > li.active a {
+	text-decoration: underline;
+}
+
+ .pop {
+     cursor: pointer;
+ }
+ 
+ ol[type="i"] {
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+ 
+ a.accordion-toggle i.icon-collapse {
+     float: right;
+     text-decoration: none;
+ }
