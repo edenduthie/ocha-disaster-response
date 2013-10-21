@@ -1,3 +1,4 @@
 $('.pop').popover({
-	placement: 'bottom'
+	placement: 'bottom',
+	html: true
 });
