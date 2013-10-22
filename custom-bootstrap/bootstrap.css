@@ -5930,7 +5930,8 @@ h2 {
 }
 h2 .popover .popover-content,
 .figure-label .popover .popover-content,
-h3 .popover .popover-content {
+h3 .popover .popover-content,
+.well-primary .popover .popover-content {
   color: #717073;
   font-size: 16px;
   font-weight: 400;
@@ -5972,6 +5973,10 @@ tr.info {
 .well-primary h4 {
   color: #fff;
   text-transform: uppercase;
+}
+.well-primary a {
+  color: #fff;
+  text-decoration: underline;
 }
 .clearfix:before,
 .clearfix:after {
