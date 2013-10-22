@@ -69,3 +69,11 @@ html, body {
  .figure img {
      margin: 5px 0;
  }
+ 
+ .figure.more-margin {
+     margin: 10px 0;
+}
+ 
+ .figure.more-margin img {
+     margin: 15px 0;
+ }
