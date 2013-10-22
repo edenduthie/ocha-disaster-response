@@ -2006,8 +2006,8 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-success {
   color: #ffffff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #e3e7f5;
+  border-color: #d0d7ee;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -2015,8 +2015,8 @@ fieldset[disabled] .btn-danger.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #47a447;
-  border-color: #398439;
+  background-color: #c5cdea;
+  border-color: #a3b0de;
 }
 .btn-success:active,
 .btn-success.active,
@@ -2038,8 +2038,8 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #e3e7f5;
+  border-color: #d0d7ee;
 }
 .btn-info {
   color: #ffffff;
@@ -4226,11 +4226,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #095086;
 }
 .label-success {
-  background-color: #5cb85c;
+  background-color: #e3e7f5;
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #bdc7e8;
 }
 .label-info {
   background-color: #5bc0de;
@@ -4492,7 +4492,7 @@ a.thumbnail:focus {
   animation: progress-bar-stripes 2s linear infinite;
 }
 .progress-bar-success {
-  background-color: #5cb85c;
+  background-color: #e3e7f5;
 }
 .progress-striped .progress-bar-success {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -5928,7 +5928,9 @@ h2 {
   padding-bottom: 10px;
   border-bottom: 1px solid #DDDDDD;
 }
-h2 .popover .popover-content {
+h2 .popover .popover-content,
+.figure-label .popover .popover-content,
+h3 .popover .popover-content {
   color: #717073;
   font-size: 16px;
   font-weight: 400;
@@ -5940,13 +5942,6 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 20px;
-}
-h3 .popover .popover-content {
-  color: #717073;
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 0;
-  text-transform: none;
 }
 h4 {
   color: #333333;
@@ -5963,12 +5958,20 @@ h4 {
   font-size: 14px;
   font-weight: 700;
 }
-td.success,
-tr.success {
+td.info,
+tr.info {
   color: #036cb6;
 }
 .org {
   color: #036cb6;
+}
+.well-primary {
+  background-color: #0c6cb6;
+  color: #fff;
+}
+.well-primary h4 {
+  color: #fff;
+  text-transform: uppercase;
 }
 .clearfix:before,
 .clearfix:after {
