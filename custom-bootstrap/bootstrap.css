@@ -1932,8 +1932,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-warning {
   color: #ffffff;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #fbaf33;
+  border-color: #fba51a;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -1941,8 +1941,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
-  background-color: #ed9c28;
-  border-color: #d58512;
+  background-color: #fa9f0b;
+  border-color: #d38404;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -1964,13 +1964,13 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #fbaf33;
+  border-color: #fba51a;
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #ba141a;
+  border-color: #a31217;
 }
 .btn-danger:hover,
 .btn-danger:focus,
@@ -1978,8 +1978,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #d2322d;
-  border-color: #ac2925;
+  background-color: #951015;
+  border-color: #6c0c0f;
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -2001,13 +2001,13 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #ba141a;
+  border-color: #a31217;
 }
 .btn-success {
   color: #ffffff;
-  background-color: #e3e7f5;
-  border-color: #d0d7ee;
+  background-color: #45a748;
+  border-color: #3e9540;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -2015,8 +2015,8 @@ fieldset[disabled] .btn-danger.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #c5cdea;
-  border-color: #a3b0de;
+  background-color: #398a3c;
+  border-color: #2c6a2e;
 }
 .btn-success:active,
 .btn-success.active,
@@ -2038,13 +2038,13 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #e3e7f5;
-  border-color: #d0d7ee;
+  background-color: #45a748;
+  border-color: #3e9540;
 }
 .btn-info {
   color: #ffffff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #45a748;
+  border-color: #3e9540;
 }
 .btn-info:hover,
 .btn-info:focus,
@@ -2052,8 +2052,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #39b3d7;
-  border-color: #269abc;
+  background-color: #398a3c;
+  border-color: #2c6a2e;
 }
 .btn-info:active,
 .btn-info.active,
@@ -2075,8 +2075,8 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #45a748;
+  border-color: #3e9540;
 }
 .btn-link {
   color: #0c6cb6;
@@ -4226,32 +4226,32 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #095086;
 }
 .label-success {
-  background-color: #e3e7f5;
+  background-color: #45a748;
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #bdc7e8;
+  background-color: #368338;
 }
 .label-info {
-  background-color: #5bc0de;
+  background-color: #45a748;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #368338;
 }
 .label-warning {
-  background-color: #f0ad4e;
+  background-color: #fbaf33;
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #f69a05;
 }
 .label-danger {
-  background-color: #d9534f;
+  background-color: #ba141a;
 }
 .label-danger[href]:hover,
 .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #8c0f14;
 }
 .badge {
   display: inline-block;
@@ -4492,7 +4492,7 @@ a.thumbnail:focus {
   animation: progress-bar-stripes 2s linear infinite;
 }
 .progress-bar-success {
-  background-color: #e3e7f5;
+  background-color: #45a748;
 }
 .progress-striped .progress-bar-success {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4501,7 +4501,7 @@ a.thumbnail:focus {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #45a748;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4510,7 +4510,7 @@ a.thumbnail:focus {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning {
-  background-color: #f0ad4e;
+  background-color: #fbaf33;
 }
 .progress-striped .progress-bar-warning {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -4519,7 +4519,7 @@ a.thumbnail:focus {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #ba141a;
 }
 .progress-striped .progress-bar-danger {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
@@ -5894,8 +5894,8 @@ td.visible-print {
   margin-right: 5px;
 }
 .navbar-nav > li > a {
-  font-variant: small-caps;
-  font-size: 18px;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 .navbar-nav > li > a:hover {
   text-decoration: underline;
@@ -5916,33 +5916,40 @@ body {
   }
 }
 h1 {
-  color: #036cb6;
+  color: #ba141a;
   text-transform: uppercase;
   font-weight: 400;
 }
 h2 {
-  color: #036cb6;
+  color: #333;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #DDDDDD;
+  font-size: 20px;
+}
+h2 a {
+  color: #333;
 }
 h2 .popover .popover-content,
 .figure-label .popover .popover-content,
 h3 .popover .popover-content,
 .well-primary .popover .popover-content {
-  color: #717073;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;
   text-transform: none;
+  color: #717073;
 }
 h3 {
-  color: #036cb6;
+  color: #fbaf33;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 20px;
+}
+h3 a {
+  color: #fbaf33;
 }
 h4 {
   color: #333333;
@@ -5977,6 +5984,23 @@ tr.info {
 .well-primary a {
   color: #fff;
   text-decoration: underline;
+}
+.panel.panel-warning .panel-heading {
+  color: #fff;
+  background-color: #fbaf33;
+}
+.panel.panel-warning {
+  border: 1px solid #fbaf33;
+}
+.panel.panel-success .panel-heading {
+  color: #fff;
+  background-color: #45a748;
+}
+.panel.panel-success {
+  border: 1px solid #45a748;
+}
+.panel.panel-noborder {
+  border: 0;
 }
 .clearfix:before,
 .clearfix:after {
