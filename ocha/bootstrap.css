@@ -6005,6 +6005,10 @@ tr.info {
 .col-md-4 {
   font-size: 14px;
 }
+.warning-em {
+  color: #fbaf33;
+  text-transform: uppercase;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
