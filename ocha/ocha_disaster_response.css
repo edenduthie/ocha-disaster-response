@@ -77,3 +77,15 @@ html, body {
  .figure.more-margin img {
      margin: 15px 0;
  }
+ 
+.back-to-top {
+     position: fixed;
+     z-index: 9;
+     right: 10px;
+     top: 10px;
+     opacity: 0.5;
+ }
+ 
+ .back-to-top:hover {
+     opacity: 1.0;
+  }

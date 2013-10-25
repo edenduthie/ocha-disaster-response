@@ -6002,6 +6002,9 @@ tr.info {
 .panel.panel-noborder {
   border: 0;
 }
+.col-md-4 {
+  font-size: 14px;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";

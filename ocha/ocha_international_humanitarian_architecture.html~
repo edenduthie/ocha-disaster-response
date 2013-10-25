@@ -9,6 +9,8 @@
 </head>
 
 <body>
+<a name="top">
+<a href="#top">back to top</a>
 	<div class="main">
 		<!-- Fixed navbar -->
 		<div class="navbar navbar-default">
@@ -129,7 +131,7 @@
 				<!-- /row -->
 				<div class="row">
 					<div class="col-md-12">
-						<h2><a name="Regulatory Action">A. Regulatory Action</a></h2>
+						<h2><a name="RegulatoryAction">A. Regulatory Action</a></h2>
 					</div>
 					<!-- /col-md-12 -->
 				</div>
@@ -2004,7 +2006,7 @@ not have national counterparts to complement.">18</sup>
 			<div class="row">
 				<div class="col-md-8">
 					<div class="well well-primary">
-						<h4>Do clusters always look the same in every country?</h4>
+						<h4><i class="icon-book"></i> Do clusters always look the same in every country</h4>
 						<p>
 							There is wide diversity in how clusters are activated and
 							de-activated at country levels. The Guidance Note on <a
