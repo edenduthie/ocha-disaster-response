@@ -6011,7 +6011,14 @@ tr.info {
 }
 .list-group-heading-warning {
   background-color: #fbaf33;
+}
+a.list-group-item.list-group-heading-warning {
   color: #fff;
+}
+a.list-group-item.list-group-heading-warning:hover,
+a.list-group-item.list-group-heading-warning:focus {
+  background-color: #fbaf33;
+  opacity: 0.8;
 }
 tr.heading {
   background-color: #a7cbe5;
