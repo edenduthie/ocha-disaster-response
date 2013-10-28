@@ -6013,6 +6013,18 @@ tr.info {
   background-color: #fbaf33;
   color: #fff;
 }
+tr.heading {
+  background-color: #a7cbe5;
+  color: #333;
+}
+tr.heading th {
+  font-weight: 400;
+}
+.table-label {
+  background-color: #0c6cb6;
+  color: #fff;
+  padding: 10px;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
