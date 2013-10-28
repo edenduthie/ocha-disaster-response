@@ -6009,6 +6009,10 @@ tr.info {
   color: #fbaf33;
   text-transform: uppercase;
 }
+.list-group-heading-warning {
+  background-color: #fbaf33;
+  color: #fff;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
