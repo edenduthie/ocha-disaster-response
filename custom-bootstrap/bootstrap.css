@@ -5916,9 +5916,12 @@ body {
   }
 }
 h1 {
-  color: #ba141a;
+  background-color: #ba141a;
+  color: #fff;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
 }
 h2 {
   color: #333;
@@ -5946,6 +5949,11 @@ h3 {
   color: #fbaf33;
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 20px;
+}
+h3.intro {
+  color: #0c6cb6;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 h3 a {
@@ -6040,7 +6048,18 @@ tr.heading th {
 .table tfoot > tr > td {
   padding: 10px 20px;
 }
-.clearfix:before,
+.panel-heading {
+  text-transform: uppercase;
+}
+/*
+.col-md-6 ol[type="A"] li a {
+	color: #000;
+}
+
+.col-md-6 ol[type="A"] li ol[type="i"] li a {
+	color: @brand-primary;
+}
+*/.clearfix:before,
 .clearfix:after {
   content: " ";
   /* 1 */

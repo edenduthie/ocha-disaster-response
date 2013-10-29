@@ -37,9 +37,12 @@ body {
 }
 
 h1 {
-	color: @brand-danger;
+	background-color: @brand-danger;
+	color: #fff;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 h2 {
@@ -71,6 +74,12 @@ h3 {
 	color: @brand-warning;
     text-transform: uppercase;
     font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h3.intro {
+	color: @brand-primary;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -183,3 +192,17 @@ tr.heading th {
 .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
     padding: 10px 20px;
 }
+
+.panel-heading {
+    text-transform: uppercase;
+}
+
+/*
+.col-md-6 ol[type="A"] li a {
+	color: #000;
+}
+
+.col-md-6 ol[type="A"] li ol[type="i"] li a {
+	color: @brand-primary;
+}
+*/

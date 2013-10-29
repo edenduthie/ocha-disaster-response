@@ -2,9 +2,8 @@
 	background-color: #ffffff;
 }
 
-
-html, body {
-    height: 100%;
+html,body {
+	height: 100%;
 }
 
 .main {
@@ -26,8 +25,7 @@ html, body {
 	background-color: #717075;
 }
 
-.logo .col-md-8,
-.logo .col-md-4 {
+.logo .col-md-8,.logo .col-md-4 {
 	padding: 0;
 }
 
@@ -40,53 +38,52 @@ html, body {
 }
 
 .grey-box {
-    margin: 20px 0 20px 0;
+	margin: 20px 0 20px 0;
 }
 
-.navbar-nav > li.active a {
+.navbar-nav>li.active a {
 	text-decoration: underline;
 }
 
- .pop {
-     cursor: pointer;
- }
- 
- ol[type="i"] {
-     margin-bottom: 5px;
-     margin-top: 5px;
- }
- 
- a.accordion-toggle i.icon-collapse {
-     float: right;
-     text-decoration: none;
- }
- 
- sup:hover {
-     text-decoration: underline;
-     font-weight: bold;
- }
- 
- .figure img {
-     margin: 5px 0;
- }
- 
- .figure.more-margin {
-     margin: 10px 0;
+.pop {
+	cursor: pointer;
 }
- 
- .figure.more-margin img {
-     margin: 15px 0;
- }
- 
+
+ol[type="i"] {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+a.accordion-toggle i.icon-collapse {
+	float: right;
+	text-decoration: none;
+}
+
+sup:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.figure img {
+	margin: 5px 0;
+}
+
+.figure.more-margin {
+	margin: 10px 0;
+}
+
+.figure.more-margin img {
+	margin: 15px 0;
+}
+
 .back-to-top {
-     position: fixed;
-     z-index: 9;
-     right: 10px;
-     top: 10px;
-     opacity: 0.5;
- }
- 
- .back-to-top:hover {
-     opacity: 1.0;
-  }
- 
+	position: fixed;
+	z-index: 9;
+	right: 10px;
+	top: 10px;
+	opacity: 0.5;
+}
+
+.back-to-top:hover {
+	opacity: 1.0;
+}
