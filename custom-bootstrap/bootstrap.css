@@ -5919,9 +5919,10 @@ h1 {
   background-color: #ba141a;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 700;
-  padding: 10px;
+  font-weight: 400;
+  padding: 8px 10px;
   border-radius: 5px;
+  font-size: 22px;
 }
 h2 {
   color: #333;
