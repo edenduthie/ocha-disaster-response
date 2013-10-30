@@ -107,3 +107,13 @@ sup:hover {
 	text-transform: uppercase;
 	margin: 20px;
 }
+
+.logo-small {
+	height: 119px;
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.btn-group.bottom-margin {
+	margin-bottom: 10px;
+}
