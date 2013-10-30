@@ -262,7 +262,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #717073;
-  background-color: #999999;
+  background-color: #6090c0;
 }
 input,
 button,
@@ -306,7 +306,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #999999;
+  background-color: #6090c0;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1312,7 +1312,7 @@ th {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #999999;
+  background-color: #6090c0;
 }
 .table-condensed thead > tr > th,
 .table-condensed tbody > tr > th,
@@ -3365,7 +3365,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #999999;
+  background-color: #6090c0;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3391,7 +3391,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-right: 0;
 }
 .nav-tabs.nav-justified > .active > a {
-  border-bottom-color: #999999;
+  border-bottom-color: #6090c0;
 }
 .nav-pills > li {
   float: left;
@@ -3438,7 +3438,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-right: 0;
 }
 .nav-tabs-justified > .active > a {
-  border-bottom-color: #999999;
+  border-bottom-color: #6090c0;
 }
 .tabbable:before,
 .tabbable:after {
@@ -4323,7 +4323,7 @@ a.list-group-item.active > .badge,
 .thumbnail {
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #999999;
+  background-color: #6090c0;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
