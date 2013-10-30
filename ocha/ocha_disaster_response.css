@@ -117,3 +117,11 @@ sup:hover {
 .btn-group.bottom-margin {
 	margin-bottom: 10px;
 }
+
+.col-md-6 ol[type="A"] li a {
+	text-transform: uppercase;
+}
+
+.col-md-6 ol[type="A"] li ol[type="i"] li a {
+	text-transform: none;
+}
