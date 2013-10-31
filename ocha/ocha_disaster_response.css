@@ -119,6 +119,10 @@ sup:hover {
 	margin-bottom: 10px;
 }
 
+.top-margin {
+	margin-top: 20px;
+}
+
 .col-md-6 ol[type="A"] li a {
 	text-transform: uppercase;
 }
