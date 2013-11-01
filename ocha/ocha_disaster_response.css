@@ -134,3 +134,7 @@ sup:hover {
 .right-float {
 	float: right;
 }
+
+#acronyms .row {
+	margin: 5px 0;
+}
