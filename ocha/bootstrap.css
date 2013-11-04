@@ -6066,7 +6066,15 @@ tr.heading th {
 .col-md-6 ol[type="A"] li ol[type="i"] li a {
 	color: @brand-primary;
 }
-*/.clearfix:before,
+*/
+.header-orange-back {
+  background-color: #fbaf33;
+}
+.header-orange-back img {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.clearfix:before,
 .clearfix:after {
   content: " ";
   /* 1 */
