@@ -501,7 +501,7 @@ dt {
 dd {
   margin-left: 0;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -2901,7 +2901,7 @@ input[type="button"].btn-block {
   bottom: 100%;
   margin-bottom: 1px;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
@@ -3516,7 +3516,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar {
     border-radius: 0;
   }
@@ -3545,7 +3545,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-header {
     float: left;
   }
@@ -3586,7 +3586,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -3616,7 +3616,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .container > .navbar-header,
   .container > .navbar-collapse {
     margin-right: 0;
@@ -3626,7 +3626,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-static-top {
   border-width: 0 0 1px;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-static-top {
     border-radius: 0;
   }
@@ -3638,7 +3638,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   left: 0;
   border-width: 0 0 1px;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
@@ -3662,7 +3662,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar > .container .navbar-brand {
     margin-left: -15px;
   }
@@ -3687,7 +3687,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-toggle {
     display: none;
   }
@@ -3722,7 +3722,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -3735,7 +3735,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding-bottom: 5.5px;
   }
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-left {
     float: left !important;
   }
@@ -3781,7 +3781,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-form {
     width: auto;
     border: 0;
@@ -3816,7 +3816,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-top: 5.5px;
   margin-bottom: 5.5px;
 }
-@media (min-width: 1350px) {
+@media (min-width: 768px) {
   .navbar-text {
     margin-left: 15px;
     margin-right: 15px;
@@ -5892,27 +5892,26 @@ td.visible-print {
 .navbar-nav > li {
   background-color: #0c6cb6;
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 .navbar-nav > li > a {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
 }
 .navbar-nav > li > a:hover {
   text-decoration: underline;
 }
-@media screen and (min-width: 1350px) {
-  .navbar-collapse {
-    padding-left: 0;
-    padding-right: 0;
-  }
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
 }
 body {
   font-size: 16px;
 }
-@media screen and (max-width: 1350px - 1) {
+@media screen and (max-width: 768px) {
   .navbar-collapse {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
 h1 {

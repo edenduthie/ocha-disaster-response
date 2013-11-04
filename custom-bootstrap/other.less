@@ -8,33 +8,34 @@
 .navbar-nav > li {
     background-color: @brand-primary;
     margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .navbar-nav > li > a {
     text-transform: uppercase;
-    font-size: @font-size-medium;
+    font-size: @font-size-base;
 }
 
 .navbar-nav > li > a:hover {
    text-decoration: underline;
 }
 
-@media screen and ( min-width: @screen-largest ) {
+
   .navbar-collapse {
       padding-left: 0;
       padding-right: 0;
   }
-}
 
 body {
     font-size: @font-size-medium;
 }
-@media screen and ( max-width: @screen-largest - 1 ) {
+@media screen and ( max-width: @screen-sm ) {
   .navbar-collapse {
-      padding-left: floor(@grid-gutter-width / 2);
-      padding-right: floor(@grid-gutter-width / 2);
+      padding-left: floor(@grid-gutter-width / 2) !important;
+      padding-right: floor(@grid-gutter-width / 2) !important;
   }
 }
+
 
 h1 {
 	background-color: @brand-danger;
