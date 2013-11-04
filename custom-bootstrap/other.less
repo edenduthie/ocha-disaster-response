@@ -217,7 +217,15 @@ tr.heading th {
 */
 
 .header-orange-back {
-    background-color: @brand-warning;
+    background-image: url(images/banner-right-back.gif);
+    vertical-align: center;
+    min-height: 96px;
+}
+
+@media screen and ( max-width: @screen-sm ) {
+  .header-orange-back {
+      min-height: 0px;
+  }
 }
 
 .header-orange-back img {
