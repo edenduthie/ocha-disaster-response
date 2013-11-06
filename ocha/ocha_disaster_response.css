@@ -139,3 +139,7 @@ sup:hover {
 #acronyms .row {
 	margin: 5px 0;
 }
+
+.left-gutter {
+    margin: 0 15px;
+}
