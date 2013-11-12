@@ -143,3 +143,8 @@ sup:hover {
 .left-gutter {
     margin: 0 15px;
 }
+
+.boot-tooltip {
+	pointer-events: auto !important;
+	cursor: default !important;
+}

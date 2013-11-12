@@ -23,3 +23,5 @@ function showHideControl() {
 		$('.back-to-top').hide();
 	}
 }
+
+$('.boot-tooltip').tooltip({placement : 'bottom'});
